@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&family=Poppins:wght@300;400;500&display=swap');
+@import 'config';
+@import 'buttons';
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    height: 100vh;
+    font-family: $font-stack;
+    font-weight: 400;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.main_container {
+    background-color: $dark-color;
+//  padding: 12px;
+    color: #fff;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 0rem;
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+         li {
+            padding: 1rem;
+         }
+
+         a:hover {
+            color: $hover-color;
+         }
+
+         a[href="index.html"] {
+            color: $hover-color;
+            font-size: 1.6rem;
+            font-weight: 500;
+         }
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        // padding: 0.75rem 1rem;
+    }
+
+    .showcase {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .t_color {
+        color: $secondary-color;
+    }
+
+    p {
+        padding: 1rem 0rem;
+    }
+
+    .imgClass {
+        width: 50%;
+        // width: 100%;
+        height: 10rem;
+    }
+}
+
+// .container {
+//     // max-width: 68.75rem;
+//     // width: 80%;
+//     padding: 0rem 1.875rem;
+//     margin: 0rem auto;
+// }
